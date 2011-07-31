@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1DBEAB13E598580018ABA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1DBEAA13E598580018ABA7 /* UIKit.framework */; };
+		1B1DBEAD13E598580018ABA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1DBEAC13E598580018ABA7 /* Foundation.framework */; };
+		1B1DBEAF13E598580018ABA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1DBEAE13E598580018ABA7 /* CoreGraphics.framework */; };
+		1B1DBEB513E598580018ABA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B1DBEB313E598580018ABA7 /* InfoPlist.strings */; };
+		1B1DBEB713E598580018ABA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1DBEB613E598580018ABA7 /* main.m */; };
+		1B1DBEBB13E598580018ABA7 /* ProvaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1DBEBA13E598580018ABA7 /* ProvaAppDelegate.m */; };
+		1B1DBEBE13E598580018ABA7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B1DBEBC13E598580018ABA7 /* MainWindow.xib */; };
+		1B1DBEC113E598580018ABA7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1DBEC013E598580018ABA7 /* RootViewController.m */; };
+		1B1DBEC413E598580018ABA7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B1DBEC213E598580018ABA7 /* RootViewController.xib */; };
+		1B1DBECC13E598580018ABA7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1DBECB13E598580018ABA7 /* SenTestingKit.framework */; };
+		1B1DBECD13E598580018ABA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1DBEAA13E598580018ABA7 /* UIKit.framework */; };
+		1B1DBECE13E598580018ABA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1DBEAC13E598580018ABA7 /* Foundation.framework */; };
+		1B1DBECF13E598580018ABA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1DBEAE13E598580018ABA7 /* CoreGraphics.framework */; };
+		1B1DBED713E598580018ABA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B1DBED513E598580018ABA7 /* InfoPlist.strings */; };
+		1B1DBED913E598580018ABA7 /* ProvaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1B1DBED813E598580018ABA7 /* ProvaTests.h */; };
+		1B1DBEDB13E598580018ABA7 /* ProvaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1DBEDA13E598580018ABA7 /* ProvaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B1DBED013E598580018ABA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1DBE9D13E598570018ABA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1DBEA513E598580018ABA7;
+			remoteInfo = Prova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B1DBEA613E598580018ABA7 /* Prova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1DBEAA13E598580018ABA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B1DBEAC13E598580018ABA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B1DBEAE13E598580018ABA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B1DBEB213E598580018ABA7 /* Prova-Info.plist */ = {isa = PBXFileReference; path = "Prova-Info.plist"; sourceTree = "<group>"; };
+		1B1DBEB413E598580018ABA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B1DBEB613E598580018ABA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B1DBEB813E598580018ABA7 /* Prova-Prefix.pch */ = {isa = PBXFileReference; path = "Prova-Prefix.pch"; sourceTree = "<group>"; };
+		1B1DBEB913E598580018ABA7 /* ProvaAppDelegate.h */ = {isa = PBXFileReference; path = ProvaAppDelegate.h; sourceTree = "<group>"; };
+		1B1DBEBA13E598580018ABA7 /* ProvaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvaAppDelegate.m; sourceTree = "<group>"; };
+		1B1DBEBD13E598580018ABA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1B1DBEBF13E598580018ABA7 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		1B1DBEC013E598580018ABA7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1B1DBEC313E598580018ABA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		1B1DBECA13E598580018ABA7 /* ProvaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1DBECB13E598580018ABA7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B1DBED413E598580018ABA7 /* ProvaTests-Info.plist */ = {isa = PBXFileReference; path = "ProvaTests-Info.plist"; sourceTree = "<group>"; };
+		1B1DBED613E598580018ABA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B1DBED813E598580018ABA7 /* ProvaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvaTests.h; sourceTree = "<group>"; };
+		1B1DBEDA13E598580018ABA7 /* ProvaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B1DBEA313E598580018ABA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1DBEAB13E598580018ABA7 /* UIKit.framework in Frameworks */,
+				1B1DBEAD13E598580018ABA7 /* Foundation.framework in Frameworks */,
+				1B1DBEAF13E598580018ABA7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1DBEC613E598580018ABA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1DBECC13E598580018ABA7 /* SenTestingKit.framework in Frameworks */,
+				1B1DBECD13E598580018ABA7 /* UIKit.framework in Frameworks */,
+				1B1DBECE13E598580018ABA7 /* Foundation.framework in Frameworks */,
+				1B1DBECF13E598580018ABA7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B1DBE9B13E598570018ABA7 = {
+			isa = PBXGroup;
+			children = (
+				1B1DBEB013E598580018ABA7 /* Prova */,
+				1B1DBED213E598580018ABA7 /* ProvaTests */,
+				1B1DBEA913E598580018ABA7 /* Frameworks */,
+				1B1DBEA713E598580018ABA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B1DBEA713E598580018ABA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B1DBEA613E598580018ABA7 /* Prova.app */,
+				1B1DBECA13E598580018ABA7 /* ProvaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B1DBEA913E598580018ABA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B1DBEAA13E598580018ABA7 /* UIKit.framework */,
+				1B1DBEAC13E598580018ABA7 /* Foundation.framework */,
+				1B1DBEAE13E598580018ABA7 /* CoreGraphics.framework */,
+				1B1DBECB13E598580018ABA7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B1DBEB013E598580018ABA7 /* Prova */ = {
+			isa = PBXGroup;
+			children = (
+				1B1DBEB913E598580018ABA7 /* ProvaAppDelegate.h */,
+				1B1DBEBA13E598580018ABA7 /* ProvaAppDelegate.m */,
+				1B1DBEBC13E598580018ABA7 /* MainWindow.xib */,
+				1B1DBEBF13E598580018ABA7 /* RootViewController.h */,
+				1B1DBEC013E598580018ABA7 /* RootViewController.m */,
+				1B1DBEC213E598580018ABA7 /* RootViewController.xib */,
+				1B1DBEB113E598580018ABA7 /* Supporting Files */,
+			);
+			path = Prova;
+			sourceTree = "<group>";
+		};
+		1B1DBEB113E598580018ABA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B1DBEB213E598580018ABA7 /* Prova-Info.plist */,
+				1B1DBEB313E598580018ABA7 /* InfoPlist.strings */,
+				1B1DBEB613E598580018ABA7 /* main.m */,
+				1B1DBEB813E598580018ABA7 /* Prova-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B1DBED213E598580018ABA7 /* ProvaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1DBED813E598580018ABA7 /* ProvaTests.h */,
+				1B1DBEDA13E598580018ABA7 /* ProvaTests.m */,
+				1B1DBED313E598580018ABA7 /* Supporting Files */,
+			);
+			path = ProvaTests;
+			sourceTree = "<group>";
+		};
+		1B1DBED313E598580018ABA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B1DBED413E598580018ABA7 /* ProvaTests-Info.plist */,
+				1B1DBED513E598580018ABA7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B1DBEA513E598580018ABA7 /* Prova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1DBEDE13E598580018ABA7 /* Build configuration list for PBXNativeTarget "Prova" */;
+			buildPhases = (
+				1B1DBEA213E598580018ABA7 /* Sources */,
+				1B1DBEA313E598580018ABA7 /* Frameworks */,
+				1B1DBEA413E598580018ABA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prova;
+			productName = Prova;
+			productReference = 1B1DBEA613E598580018ABA7 /* Prova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B1DBEC913E598580018ABA7 /* ProvaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1DBEE113E598580018ABA7 /* Build configuration list for PBXNativeTarget "ProvaTests" */;
+			buildPhases = (
+				1B1DBEC513E598580018ABA7 /* Sources */,
+				1B1DBEC613E598580018ABA7 /* Frameworks */,
+				1B1DBEC713E598580018ABA7 /* Resources */,
+				1B1DBEC813E598580018ABA7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1DBED113E598580018ABA7 /* PBXTargetDependency */,
+			);
+			name = ProvaTests;
+			productName = ProvaTests;
+			productReference = 1B1DBECA13E598580018ABA7 /* ProvaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B1DBE9D13E598570018ABA7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1B1DBEA013E598570018ABA7 /* Build configuration list for PBXProject "Prova" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B1DBE9B13E598570018ABA7;
+			productRefGroup = 1B1DBEA713E598580018ABA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B1DBEA513E598580018ABA7 /* Prova */,
+				1B1DBEC913E598580018ABA7 /* ProvaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B1DBEA413E598580018ABA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1DBEB513E598580018ABA7 /* InfoPlist.strings in Resources */,
+				1B1DBEBE13E598580018ABA7 /* MainWindow.xib in Resources */,
+				1B1DBEC413E598580018ABA7 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1DBEC713E598580018ABA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1DBED713E598580018ABA7 /* InfoPlist.strings in Resources */,
+				1B1DBED913E598580018ABA7 /* ProvaTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B1DBEC813E598580018ABA7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B1DBEA213E598580018ABA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1DBEB713E598580018ABA7 /* main.m in Sources */,
+				1B1DBEBB13E598580018ABA7 /* ProvaAppDelegate.m in Sources */,
+				1B1DBEC113E598580018ABA7 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1DBEC513E598580018ABA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1DBEDB13E598580018ABA7 /* ProvaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B1DBED113E598580018ABA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B1DBEA513E598580018ABA7 /* Prova */;
+			targetProxy = 1B1DBED013E598580018ABA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B1DBEB313E598580018ABA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1DBEB413E598580018ABA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B1DBEBC13E598580018ABA7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1DBEBD13E598580018ABA7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1B1DBEC213E598580018ABA7 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1DBEC313E598580018ABA7 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		1B1DBED513E598580018ABA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1DBED613E598580018ABA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B1DBEDC13E598580018ABA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B1DBEDD13E598580018ABA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B1DBEDF13E598580018ABA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prova/Prova-Prefix.pch";
+				INFOPLIST_FILE = "Prova/Prova-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B1DBEE013E598580018ABA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prova/Prova-Prefix.pch";
+				INFOPLIST_FILE = "Prova/Prova-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1B1DBEE213E598580018ABA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Prova.app/Prova";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prova/Prova-Prefix.pch";
+				INFOPLIST_FILE = "ProvaTests/ProvaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1B1DBEE313E598580018ABA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Prova.app/Prova";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prova/Prova-Prefix.pch";
+				INFOPLIST_FILE = "ProvaTests/ProvaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B1DBEA013E598570018ABA7 /* Build configuration list for PBXProject "Prova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1DBEDC13E598580018ABA7 /* Debug */,
+				1B1DBEDD13E598580018ABA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1DBEDE13E598580018ABA7 /* Build configuration list for PBXNativeTarget "Prova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1DBEDF13E598580018ABA7 /* Debug */,
+				1B1DBEE013E598580018ABA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B1DBEE113E598580018ABA7 /* Build configuration list for PBXNativeTarget "ProvaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1DBEE213E598580018ABA7 /* Debug */,
+				1B1DBEE313E598580018ABA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B1DBE9D13E598570018ABA7 /* Project object */;
+}
